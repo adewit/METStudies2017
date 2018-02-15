@@ -1,0 +1,7 @@
+# Automatically generated on {{ timestamp }}
+{% for job in jobs %}
+JOB job{{ loop.index }} node
+VARS job{{ loop.index }} jobid="{{ loop.index }}"
+VARS job{{ loop.index }} src="{{ job }}"
+VARS job{{ loop.index }} out="job{{ loop.index }}.root"
+{% endfor %}

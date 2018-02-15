@@ -1,3 +1,11 @@
+# ROOT files
+*.root
+
+# Automatically generated job submission files
+*/EfficiencyAnalyzerJobs/*
+
+# Grid proxies
+*/x509up_*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

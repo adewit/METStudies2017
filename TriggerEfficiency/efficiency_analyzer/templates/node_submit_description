@@ -1,0 +1,19 @@
+# Automatically generated on {{ timestamp }}
+universe = vanilla
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+executable = run_efficiency_analyzer.sh
+arguments = $(src) $(out)
+transfer_input_files = {{ input_files|join(',') }}
+transfer_output_files = $(out)
+transfer_output_remaps = "$(out)=outputs/$(out)"
+output = logs/$(jobid).out
+error = logs/$(jobid).err
+log = logs/$(jobid).log
+
+{% for command, value in commands.iteritems() %}
+{{ command }} = {{ value }}
+{% endfor %}
+
+queue
