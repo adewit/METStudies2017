@@ -3,7 +3,7 @@ import os
 from efficiency_analyzer import EfficiencyAnalyzer
 
 cuts = [
-    'Vtype == 3 && Electron_pt[0]>37 && nJet >= 2 && Sum$(Jet_Pt > 20 && abs(Jet_eta) < 2.5 && Jet_lepFilter) >= 2 && HLT_Ele35_WPTight_Gsf && abs(TVector2::Phi_mpi_pi(Electron_phi[0] - MET_phi)) < 2.5 && Flag_goodVertices && Flag_globalSuperTightHalo2016Filter && Flag_HBHENoiseFilter && Flag_HBHENoiseIsoFilter && Flag_EcalDeadCellTriggerPrimitiveFilter && Flag_BadPFMuonFilter && Flag_BadChargedCandidateFilter && Flag_ecalBadCalibFilter',
+    'Vtype == 3 && Electron_pt[0]>35 && nJet >= 2 && Sum$(Jet_Pt > 20 && abs(Jet_eta) < 2.5 && Jet_lepFilter) >= 2 && HLT_Ele32_WPTight_Gsf && abs(TVector2::Phi_mpi_pi(Electron_phi[0] - MET_phi)) < 2.5 && Flag_goodVertices && Flag_globalSuperTightHalo2016Filter && Flag_HBHENoiseFilter && Flag_HBHENoiseIsoFilter && Flag_EcalDeadCellTriggerPrimitiveFilter && Flag_BadPFMuonFilter && Flag_BadChargedCandidateFilter && Flag_ecalBadCalibFilter',
 ]
 
 histograms = [
