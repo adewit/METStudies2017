@@ -11,6 +11,7 @@ transfer_output_remaps = "$(out)=outputs/$(out)"
 output = logs/$(jobid).out
 error = logs/$(jobid).err
 log = logs/$(jobid).log
++JobFlavour = "workday"
 
 {% for command, value in commands.iteritems() %}
 {{ command }} = {{ value }}

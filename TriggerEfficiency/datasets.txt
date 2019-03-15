@@ -1,0 +1,14 @@
+/WJetsToLNu_HT-1200To2500_TuneCP5_13TeV-madgraphMLM-pythia8/acalandr-RunIIAutumn18NanoAOD-102X_upgr82-82f9a1e3d3dcf76bf6a4a44034cf6840/USER
+/WJetsToLNu_HT-800To1200_TuneCP5_13TeV-madgraphMLM-pythia8/acalandr-RunIIAutumn18NanoAOD-102X_upgr83-82f9a1e3d3dcf76bf6a4a44034cf6840/USER 
+/EGamma/acalandr-Run2018A-14Sep2018_ver1-v191-f5b5b303bc0ef563b98283b4e4ebaa8d/USER
+/EGamma/acalandr-Run2018A-14Sep2018_ver2-v190-f5b5b303bc0ef563b98283b4e4ebaa8d/USER
+/EGamma/acalandr-Run2018A-14Sep2018_ver3-v189-f5b5b303bc0ef563b98283b4e4ebaa8d/USER
+/EGamma/acalandr-Run2018B-14Sep2018_ver1-v187-f5b5b303bc0ef563b98283b4e4ebaa8d/USER
+/EGamma/acalandr-Run2018B-14Sep2018_ver2-v186-f5b5b303bc0ef563b98283b4e4ebaa8d/USER
+/EGamma/acalandr-Run2018C-14Sep2018_ver1-v184-f5b5b303bc0ef563b98283b4e4ebaa8d/USER
+/EGamma/acalandr-Run2018C-14Sep2018_ver2-v183-f5b5b303bc0ef563b98283b4e4ebaa8d/USER
+/EGamma/acalandr-Run2018C-14Sep2018_ver3-v182-f5b5b303bc0ef563b98283b4e4ebaa8d/USER
+/EGamma/acalandr-Run2018D-14Sep2018_ver2-v180-f5b5b303bc0ef563b98283b4e4ebaa8d/USER
+/EGamma/acalandr-Run2018A-Nano14Dec2018-v188-0cddb9e2402d2a936e94a815e9296873/USER
+/EGamma/acalandr-Run2018B-Nano14Dec2018-v185-0cddb9e2402d2a936e94a815e9296873/USER
+/EGamma/acalandr-Run2018C-Nano14Dec2018-v181-0cddb9e2402d2a936e94a815e9296873/USER

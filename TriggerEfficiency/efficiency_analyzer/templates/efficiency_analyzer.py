@@ -119,6 +119,8 @@ def main():
         subdir = output_file.mkdir('Cut{0!s}'.format(i))
         subdir.cd()
         events.select(cut)
+        tree_test = events.GetTree().CopyTree(cut)
+        tree_test.Write()
         for h in HISTOGRAMS:
             events.histogram(*h).Write()
 
